@@ -1,0 +1,1 @@
+insert into employee(id, name, role) values(1, 'Mavi Jimenez', 'Backend Developer');
