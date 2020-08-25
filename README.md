@@ -37,3 +37,12 @@ Set up the docker containers, because you need the mysql database running.
 
 ### Try the api from local
 http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/
+
+
+## To do's
+
+- [ ] Deploy to prod environment 🚀
+- [ ] Action when team make a PR (Test, coverage, quality...)
+- [ ] How deploy can be modified or improved
+- [ ] Monitoring 🤖
+- [ ] Secrets 🙊
