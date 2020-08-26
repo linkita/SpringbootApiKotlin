@@ -45,4 +45,5 @@ http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-confi
 - [ ] Action when team make a PR (Test, coverage, quality...)
 - [ ] How deploy can be modified or improved
 - [ ] Monitoring 🤖
-- [ ] Secrets 🙊
+- [ ] Secrets 🙊 
+- [ ] Infra as code. How to create an RDS (common code, code inside the project...)
