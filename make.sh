@@ -25,13 +25,13 @@ case $1 in
   build)
     printf "%s\n" "Building the project..."
     docker exec -it outbound-api ./mvnw clean package
-    docker exec -it outbound-api mv target/*.jar target/app.jar
     ;;
 
   play)
     printf "%s\n" "Let's play"
     printf "%s\n" "${yel}Go to http://0.0.0.0:8081/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/${end}"
 
+    docker exec -it outbound-api mv target/*.jar target/app.jar
     docker exec -it outbound-api java -jar target/app.jar;
     ;;
 

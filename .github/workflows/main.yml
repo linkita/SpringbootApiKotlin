@@ -1,0 +1,13 @@
+name: A workflow for cdsc-outbound
+on: push
+jobs:
+  build:
+    name: test action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./test-action
+        with:
+          MY_NAME: "Mavi"
+      - name: "ktlint"
+        uses: "vroy/gha-kotlin-linter@v1"
