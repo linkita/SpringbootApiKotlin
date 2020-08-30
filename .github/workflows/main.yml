@@ -6,7 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Copy dockerfiles
+        run: |
+          cp test-action/docker-compose.yml docker-compose.test.yml
+          cp test-action/Dockerfile Dockerfile.test
       - name: Execute tests
-        run: docker-compose -f test-action/docker-compose.yml run outbound-api
+        run: docker-compose -f docker-compose.test.yml run outbound-api
       - name: "ktlint"
         uses: "vroy/gha-kotlin-linter@v1"
