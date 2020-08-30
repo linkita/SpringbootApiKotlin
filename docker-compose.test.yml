@@ -11,6 +11,7 @@ services:
       - MYSQL_PASSWORD=pass
     ports:
       - 3306:3306
+
   outbound-api:
     container_name: outbound-api
     build:

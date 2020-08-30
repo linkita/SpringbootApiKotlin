@@ -43,7 +43,7 @@ case $1 in
   *)
     printf "%s\n"  "The available commands are:"
     printf "  %s\n" "${yel}start${end}: Start the entire project, get the containers ready, build and execute the app"
-    printf "  %s\n" "${yel}test${end}: Execute the tests"
+    printf "  %s\n" "${yel}tests${end}: Execute the tests"
     printf "  %s\n" "${yel}build${end}: Compile the project"
     printf "  %s\n" "${yel}play${end}: Execute the project"
     printf "  %s\n" "${yel}down${end}: Shut down the containers"
