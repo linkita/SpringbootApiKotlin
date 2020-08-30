@@ -20,7 +20,7 @@ class PingControllerTest {
     fun `ping endpoint return the string pong`() {
         mockMvc.perform(MockMvcRequestBuilders.get("/ping"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("pong1")
+                .andExpect(content().string("pong")
         )
     }
 }
