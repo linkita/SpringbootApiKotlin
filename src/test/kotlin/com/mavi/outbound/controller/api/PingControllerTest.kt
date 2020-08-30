@@ -23,5 +23,4 @@ class PingControllerTest {
                 .andExpect(content().string("pong")
         )
     }
-
 }
