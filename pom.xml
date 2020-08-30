@@ -8,8 +8,8 @@
         <version>2.3.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.seat</groupId>
-    <artifactId>cdsc-outbound</artifactId>
+    <groupId>com.mnavi</groupId>
+    <artifactId>outbound</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>cdsc-outbound</name>
     <description>Project aimed at improving logistics processes for outbound</description>

@@ -1,4 +1,4 @@
-package com.seat.outbound.controller.api
+package com.mavi.outbound.controller.api
 
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model

@@ -1,4 +1,4 @@
-package com.seat.outbound
+package com.mavi.outbound
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
