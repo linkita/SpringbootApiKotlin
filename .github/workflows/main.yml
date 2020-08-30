@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Execute tests
+#      - name: Execute tests
       - name: "ktlint"
         uses: "vroy/gha-kotlin-linter@v1"
