@@ -1,4 +1,4 @@
-package com.seat.outbound.controller.api
+package com.mavi.outbound.controller.api
 
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired

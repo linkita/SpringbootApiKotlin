@@ -1,6 +1,7 @@
 FROM openjdk:14-jdk-alpine
 COPY . /app
+COPY entrypoint.sh entrypoint.sh
+RUN chmod +x /app/entrypoint.sh
+
 WORKDIR /app
-CMD /bin/sh
-#RUN ./mvnw clean package
-#RUN mv /app/target/*.jar /app/target/app.jar
+ENTRYPOINT ./entrypoint.sh

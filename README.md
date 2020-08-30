@@ -1,5 +1,5 @@
 
-# CDSC-Outbound Backend
+# Api Backend
 
 The CDSC (Custom Driven Supply Chain) is a program aimed at improving logistics processes for inbound, inhouse and outbound. It consist on several tools: Data Integrations, Control Panels, Web applications, Mobile applications
 

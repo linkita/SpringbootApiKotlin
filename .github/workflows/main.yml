@@ -1,0 +1,11 @@
+name: A workflow for outbound
+on: push
+jobs:
+  build:
+    name: test action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Execute tests
+      - name: "ktlint"
+        uses: "vroy/gha-kotlin-linter@v1"
