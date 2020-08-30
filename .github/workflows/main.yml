@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-#      - name: Execute tests
+      - name: Execute tests
+        run: docker-compose -f test-action/docker-compose.yml run outbound-api
       - name: "ktlint"
         uses: "vroy/gha-kotlin-linter@v1"
